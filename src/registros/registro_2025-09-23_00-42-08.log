@@ -1,0 +1,1222 @@
+2025-09-23 00:42:08 - INFO - ℹ️  Iniciando proceso de descarga de artículos...
+2025-09-23 00:42:08 - INFO - ℹ️  === INICIANDO DESCARGA ===
+2025-09-23 00:42:08 - INFO - ℹ️  Iniciando descarga de artículos desde ACM...
+2025-09-23 00:42:08 - INFO - ℹ️  Configurando navegador Firefox...
+2025-09-23 00:42:16 - INFO - [EXITO] ✅  ✓ Navegador Firefox configurado
+2025-09-23 00:42:23 - INFO - [EXITO] ✅  Todos los artículos seleccionados.
+2025-09-23 00:42:24 - INFO - ℹ️  Menú de exportación abierto.
+2025-09-23 00:42:25 - INFO - ℹ️  Pestaña 'All Results' activada.
+2025-09-23 00:42:26 - INFO - ℹ️  Botón 'Download' presionado.
+2025-09-23 00:42:28 - INFO - ℹ️  'exportDownloadNotReady' detectado. Todo va bien.
+2025-09-23 00:42:28 - INFO - ℹ️  Esperando a que ACM genere el archivo BibTeX...
+2025-09-23 00:43:17 - INFO - [EXITO] ✅  Botón 'Download now!' presionado. Iniciando descarga...
+2025-09-23 00:43:17 - INFO - ℹ️  Buscando archivo .bib...
+2025-09-23 00:43:19 - INFO - [EXITO] ✅  ✓ Archivo válido: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\acm(1).bib
+2025-09-23 00:43:19 - INFO - [EXITO] ✅  Archivo BibTeX guardado en: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\acm(1).bib
+2025-09-23 00:43:19 - INFO - ℹ️  Proceso finalizado.
+2025-09-23 00:43:19 - INFO - [EXITO] ✅  ✓ Descarga ACM completada
+2025-09-23 00:43:19 - INFO - ℹ️  Iniciando proceso de deduplicación de BibTeX...
+2025-09-23 00:43:19 - INFO - ℹ️  Limpieza de keywords iniciada en: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\acm(1).bib
+2025-09-23 00:43:19 - INFO - [EXITO] ✅  Limpieza de keywords completada: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\acm(1).bib
+2025-09-23 00:43:19 - INFO - ℹ️  Procesando archivo: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\acm(1).bib
+2025-09-23 00:43:22 - WARNING - ⚠️  Entrada corrupta detectada (clave=corrupto_1)
+2025-09-23 00:43:22 - WARNING - ⚠️  Entrada corrupta detectada (clave=corrupto_2)
+2025-09-23 00:43:22 - WARNING - ⚠️  Entrada corrupta detectada (clave=corrupto_3)
+2025-09-23 00:43:22 - WARNING - ⚠️  Entrada corrupta detectada (clave=corrupto_4)
+2025-09-23 00:43:22 - WARNING - ⚠️  Entrada corrupta detectada (clave=corrupto_5)
+2025-09-23 00:43:22 - WARNING - ⚠️  Entrada corrupta detectada (clave=corrupto_6)
+2025-09-23 00:43:22 - WARNING - ⚠️  Entrada corrupta detectada (clave=corrupto_7)
+2025-09-23 00:43:22 - WARNING - ⚠️  Entrada corrupta detectada (clave=corrupto_8)
+2025-09-23 00:43:22 - WARNING - ⚠️  Entrada corrupta detectada (clave=corrupto_9)
+2025-09-23 00:43:22 - WARNING - ⚠️  Entrada corrupta detectada (clave=corrupto_10)
+2025-09-23 00:43:22 - WARNING - ⚠️  Entrada corrupta detectada (clave=corrupto_11)
+2025-09-23 00:43:22 - WARNING - ⚠️  Entrada corrupta detectada (clave=corrupto_12)
+2025-09-23 00:43:22 - WARNING - ⚠️  Entrada corrupta detectada (clave=corrupto_13)
+2025-09-23 00:43:22 - WARNING - ⚠️  Entrada corrupta detectada (clave=corrupto_14)
+2025-09-23 00:43:22 - WARNING - ⚠️  Entrada corrupta detectada (clave=corrupto_15)
+2025-09-23 00:43:22 - WARNING - ⚠️  Entrada corrupta detectada (clave=corrupto_16)
+2025-09-23 00:43:22 - INFO - ℹ️  Limpieza de keywords iniciada en: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\acm.bib
+2025-09-23 00:43:22 - INFO - [EXITO] ✅  Limpieza de keywords completada: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\acm.bib
+2025-09-23 00:43:22 - INFO - ℹ️  Procesando archivo: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\acm.bib
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3734921.3734931
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3711896.3737870
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3746469.3746486
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3734921.3734933
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3723420.3723428
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3711403.3711410
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3636555.3636879
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3711403.3711436
+2025-09-23 00:43:23 - WARNING - ⚠️  Entrada corrupta detectada (clave=corrupto_17)
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3720536
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3722237.3722379
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3657054.3657129
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3746469.3746566
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3706370.3731650
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3706598.3713348
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3670243.3670781
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3711403.3711454
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3597503.3649399
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3726010.3726029
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3757927
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=title:applicationofgenerativeartificialintelligenceforepidemicmodeling|villaplana hannah;kwak jaeyoung;lees michael;li hongying;cai wentong
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=title:acmtechbriefgenerativeartificialintelligence|leslie david;rossi francesca
+2025-09-23 00:43:23 - WARNING - ⚠️  Entrada corrupta detectada (clave=corrupto_18)
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3711403.3711435
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3711403.3711453
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3702212.3702217
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3657604.3664720
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3745676.3745728
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3708036.3708151
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3613904.3642824
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3657604.3662029
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3726010.3726089
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3672608.3707817
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3711403.3711457
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3711403.3711425
+2025-09-23 00:43:23 - WARNING - ⚠️  Entrada corrupta detectada (clave=corrupto_19)
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3703459
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3706599.3719696
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3745238.3745312
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3597638.3614548
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3723890.3723902
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3657054.3664243
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3704289.3704296
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3691720.3691809
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3708597.3708606
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3658321.3658367
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3724504.3724511
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3731626.3689825
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3732801.3732821
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3671151.3671178
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3613904.3642114
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3724504.3724537
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3724504.3724526
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3722237.3722399
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3686852.3687075
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3756580.3756623
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3756580.3756652
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3745238.3745511
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3636555.3636856
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3756580.3756627
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3675812.3675870
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3700297.3700354
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3649217.3653575
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3678726.3678778
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3531146.3533077
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3706598.3714121
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3658271.3658337
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3722237.3722377
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3678392.3678405
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3704289.3704293
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3672608.3707764
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3690391
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3657054.3659122
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3706468.3706559
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3641555.3705061
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3757749.3757817
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3568812.3603469
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3670740
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3613904.3642899
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3696500.3696575
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3700297.3700308
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3722237.3722258
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3626252.3630938
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3687311.3687415
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3660043.3660178
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3689433
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3711403.3711408
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3700297.3700395
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3626253.3635427
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3696117.3696123
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3691720.3691768
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3686081.3686126
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3726010.3726032
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3691016.3691035
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3675417.3675574
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3675417.3675461
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3637907.3637947
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3729605.3729611
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3661167.3661177
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3660043.3660174
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3675417.3675453
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3734921.3734944
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728763
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3734921.3734926
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3756580.3756611
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728790
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3734921.3734924
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3734921.3734936
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728835
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728801
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3734921.3734939
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728726
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3734921.3734941
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728797
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728824
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728813
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728735
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728782
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3734921.3734940
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3734921.3734943
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3734921.3734923
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728816
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728834
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728732
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3734921.3734922
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3734921.3734935
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728740
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728731
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3734921.3734934
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3734921.3734930
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728831
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728823
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728786
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728784
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728795
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728794
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728826
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728781
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728778
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728749
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728809
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728762
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728745
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728742
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3734921.3734945
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728829
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3728725.3728774
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728807
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728803
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728796
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728739
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728761
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728733
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3734921.3734925
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728791
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728755
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728810
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728750
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728821
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728752
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728727
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728806
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728800
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728737
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728814
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3728725.3728772
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3728725.3728770
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3734921.3734928
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728743
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728777
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728765
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3734921.3734932
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728766
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728793
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728768
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728764
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728757
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728756
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728754
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728734
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728758
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728729
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3728725.3728771
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728779
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728787
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728805
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728828
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3728725.3728818
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728812
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728741
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3734921.3734927
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728811
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728788
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728780
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728736
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728753
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3691422.3691471
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3734921.3734929
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728822
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728789
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728738
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728820
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728747
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728830
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3728725.3728819
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728792
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728751
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3728725.3728776
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728798
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3734921.3734937
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728808
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728746
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728744
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728817
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728759
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665410
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3734921.3734942
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728748
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3728725.3728773
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728832
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3656650.3656733
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728815
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3716489.3728432
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3728725.3728775
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728767
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728825
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728804
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665398
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665367
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665369
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665359
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665395
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665420
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665358
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665403
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665362
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665418
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3689215
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665407
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665380
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665361
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665405
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665384
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665382
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665356
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665419
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665402
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665353
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665354
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665364
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665391
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665396
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665351
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728728
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665417
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665385
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665363
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665393
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3641237.3691672
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665387
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665409
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665379
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665404
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665365
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665408
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665399
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665394
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728730
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665355
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665368
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665350
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665375
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665378
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665406
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665366
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665400
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665411
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665415
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665412
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665413
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665389
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665383
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665392
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665386
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665373
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665371
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665414
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3641237.3691669
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665372
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665397
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665401
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665377
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665416
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665360
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728760
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3724389.3731266
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665381
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665349
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665376
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3759275.3759292
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3706599.3719972
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665357
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3716489.3728431
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3716640.3716658
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3715275.3732120
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728799
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665390
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3663433.3663435
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665374
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728802
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665463.3678856
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3732775.3733572
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3641554.3701853
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3729706.3729807
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665370
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3715336.3735808
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3636555.3636866
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3729434.3729456
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3678884.3681897
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3641554.3701785
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3701625.3701681
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665348.3665388
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3613905.3651096
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3639856.3639893
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3626253.3635543
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3658644.3670299
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3658549.3658566
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3745238.3745456
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728827
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3652037.3663893
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3656156.3658398
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3700297.3700350
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3686852.3687066
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728769
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728785
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3708036.3708042
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3702163.3702182
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3734921.3734938
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3746469.3746496
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3689492.3690050
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3728725.3728783
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3696630.3728723
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3605390.3610821
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3643834.3661555
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3613905.3650732
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3744367.3744410
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3713043.3731513
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3699538.3699567
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3712255.3726588
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1109/wsese66602.2025.00011
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3706598.3713801
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3641554.3701873
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3696630.3727251
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3613905.3650750
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3563703.3591453
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3715668.3734170
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3643834.3660720
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3745238.3745494
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3680530.3695455
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3647444.3647910
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3756580.3756610
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3737609.3747116
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3613904.3642191
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3706599.3720032
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3722237.3722354
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3673971.3674024
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3680533.3697064
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3732801.3732826
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3641234.3671031
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3745238.3745434
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3689370
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3678518
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3660605.3660941
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3657604.3664721
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3637528.3671445
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3676641.3716267
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3706598.3713433
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3641519.3657489
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3672539.3686778
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3711403.3711448
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3689236.3696039
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3744169.3744195
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3724389.3730772
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3613904.3642103
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3613904.3642393
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3698061.3726959
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3676641.3716009
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3722547
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3724504.3724632
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3731545.3743644
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3732797
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3673805.3673828
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3689535.3689553
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3744367.3744395
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3641308.3677403
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3706468.3706488
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3746469.3746516
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3754508.3754532
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3698061.3726926
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3706101
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3721846
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3696630.3728724
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3706598.3714242
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3706598.3713192
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3706598.3714322
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3701534
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3708394.3708425
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3613372.3613405
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3646548.3672584
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3652102
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3698061.3726919
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3641308.3685022
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665318.3677172
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3696409.3700163
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3678698.3687210
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3638567
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3592572.3596476
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3746709.3746884
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3719236.3719242
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3654699
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3687033
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3640507
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3631935
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3706598.3713670
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3645057.3645059
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3711403.3711407
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3711403.3711452
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3724389.3731270
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3657604.3664640
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3641555.3705107
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3708319.3733669
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3715336.3735682
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3745238.3745524
+2025-09-23 00:43:23 - WARNING - ⚠️  Entrada corrupta detectada (clave=corrupto_20)
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3722449.3722466
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3726302.3730364
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3742939.3742946
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3640457.3691703
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3756580.3756605
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3644815.3644982
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3715675.3715835
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3725536.3725540
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3756580.3756651
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3696630.3731469
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3704637.3734789
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=title:usinggenerativeaitodesignprogrammingassignmentsinintroductiontocomputerscience|alrifai rad
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3637864
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3706599.3719841
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3632634.3655888
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3648188.3675120
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3696630.3727235
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3674844
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3721241.3737653
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3657054.3657126
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3627673.3679087
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3715336.3735805
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3749012.3749052
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3685680
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3706599.3719804
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3641825.3689685
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3678263
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3712255.3734261
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3706599.3716299
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3709022.3736543
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=title:generativeaianditsimpactonthecsclassroomandprogrammers|lindoo ed;lotfy mohamed
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3719006
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3696630.3728718
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3708319.3733806
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3656650.3660544
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1613/jair.1.17175
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3745238.3745459
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3610977.3638459
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3597503.3649400
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3690712.3690717
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3641555.3705235
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3649921.3656992
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3715669.3726788
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3711403.3711476
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3573382.3616030
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3709022.3736542
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3706599.3720249
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3746709.3746904
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3742901.3742910
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3616961.3616978
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3644116.3644221
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3658549.3658561
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3664824
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3715336.3735843
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3687054
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3713043.3731508
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3726010.3726014
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3700297.3700315
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3715317
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3631700.3664873
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3652988.3696198
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3628516.3659404
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3641554.3701917
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3724363.3729060
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3717867.3717896
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3687311.3687419
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3702386.3702394
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3708557.3716158
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3712170.3712183
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3674399.3674436
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3655727.3655736
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3706599.3719957
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3605468.3609775
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3686424.3686477
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3709026.3709100
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3677045.3685502
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3686169.3686172
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3638264.3638273
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3706599.3707213
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3648188.3676183
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1109/icse55347.2025.00063
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3713043.3728836
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3678429.3678436
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3746469.3746555
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3706598.3713906
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3613905.3643977
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3652620.3687811
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3647444.3652455
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3736539.3744927
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3676536.3698390
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3687488.3687548
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3641554.3701806
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3676536.3697122
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3675094.3677573
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3657054.3657124
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3715336.3735824
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1109/icse55347.2025.00206
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3638530.3664109
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3634713.3634722
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3643991.3645079
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3664646.3664767
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3719290
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3641234.3671061
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3641555.3705141
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3637528.3671485
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3704289.3704302
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1109/scw63240.2024.00057
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3605098.3636201
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=title:dogenerativeaimodelsoutputharmwhilerepresentingnonwesternculturesevidencefromacommunitycenteredapproach|ghosh sourojit;venkit pranav;gautam sanjana;wilson shomir;caliskan aylin
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3678719.3685691
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3698038.3698563
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3729605.3729629
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3706598.3713762
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3702653.3744298
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3724504.3724587
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3641032.3641065
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3613905.3651057
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3736252.3742615
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3689372
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3626253.3633407
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3660650.3660657
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3641555.3705278
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3710912
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3732801.3732873
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3613905.3651111
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3626252.3630842
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3734189
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3724504.3724622
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3706598.3713393
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3677052.3698645
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3579168.3632724
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3626253.3635595
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3681756.3697949
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3639856.3639892
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3726302.3731957
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3687028
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3700142
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3756423.3756574
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3691352
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3674847
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3657604.3664657
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3633083.3633099
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3685235.3685237
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3706594.3727961
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3735548.3729174
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3655497.3655516
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3724363.3729089
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1613/jair.1.15278
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3744367.3744408
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3768581
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3625007.3627484
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3581961.3609828
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3633083.3633094
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3653946.3653952
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3677996.3678289
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3613904.3642296
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3626772.3657982
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3704637.3734741
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3626772.3661371
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3706468.3706533
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3712716.3712724
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3706598.3713528
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3704217.3704224
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3689217.3690616
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3607822.3618018
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3676281
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3613905.3636272
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3627508.3638293
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3630106.3658898
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3679318.3685370
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3641032.3641055
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3690624.3709401
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3632634.3655849
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3664647.3688985
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3756580.3756590
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3610542.3626142
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3731406.3731970
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3613904.3642800
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3613905.3636268
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3596454.3597176
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3573382.3616033
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3678890.3678922
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3675812.3675874
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3706598.3713686
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3726302.3730352
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3637907.3637988
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=title:codingintegrityunveiledexploringtheprosandconsofdetectingplagiarisminprogrammingassignmentsusingcopyleaks|mouli chandra;kotteti madhav;lal ratan;chetti prasad
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.14778/3749646.3749650
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3678610.3678631
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3676969
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3613905.3636294
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3713043.3731498
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3670653.3677507
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3649883
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3614419.3644014
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=title:teachinguxamidthehypeofgenerativeai|tham jason
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3706599.3719910
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3706468.3706520
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3702652.3744219
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3686038.3686063
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3626772.3661350
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3643491.3660283
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3637528.3671883
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3678698.3687205
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3698061.3734397
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3630106.3659012
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3642979.3642985
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3617072.3617121
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3675812.3675871
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3722237.3722245
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3669754.3669806
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3613904.3641951
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3718098
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3702653.3744330
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3642979.3643002
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3706598.3713365
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3613904.3642492
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3664934.3664955
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3587421.3595416
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3749566.3749602
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3706599.3721208
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3723010.3723036
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3706599.3720027
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3625468.3652912
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3629606.3629625
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3613904.3642160
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3706599.3706641
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3656019.3676945
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3757749.3757785
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3706598.3714253
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3721239.3734125
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3706599.3719787
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3613905.3647966
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3706598.3713532
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3698322.3698340
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3733155.3737910
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3706599.3720227
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3731763.3731792
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3663548.3675631
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3664476.3670943
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3715275.3732027
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.14236/ewic/bcshci2023.13
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665333
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3759275.3759284
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3702653.3744328
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3718102.3690392
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3640794.3665538
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3706598.3713467
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3544549.3573794
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3678172
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3491101.3503719
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3701571.3701572
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=title:genderinferencecanchatgptoutperformcommoncommercialtools|alexopoulos michelle;lyons kelly;mahetaji kaushar;barnes marcus;gutwillinger rogan
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3641555.3704765
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=title:navigatinggovernanceparadigmsacrossregionalcomparativestudyofgenerativeaigovernanceprocessesampprinciples|luna jose;tan ivan;xie xiaofei;jiang lingxiao
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3727166.3727191
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3699538.3699546
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3604237.3626838
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3593230
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3643834.3661624
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3649223
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3706468.3706483
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=title:aidrivendesignofaroboticcompanionwithfelineinspiredbehaviorsforstressrelief|rivadeneira franco;carcausto daniela;ore clara;saga gabriela;vilca macarena;arroyo dante
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3675585.3675587
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3713075
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3643834.3661515
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3613905.3650763
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3754508.3754519
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3613904.3642861
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3702138.3702145
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3630106.3659031
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=title:agenerativeaiforheterogeneousnetworkonchipdesignspacepruning|mirka maxime;france-pillois maxime;sassatelli gilles;gamati\'{e} abdoulaye
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3680532.3689592
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3629606.3629675
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3613904.3642574
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3686803
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3657054.3657092
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3654768.3654775
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3652154
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3670865.3673482
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3638067.3638100
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3733106
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3641555.3705064
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3715275.3732118
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3702879.3702888
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3708359.3712137
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3643834.3661501
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3626253.3633433
+2025-09-23 00:43:23 - WARNING - ⚠️  Entrada corrupta detectada (clave=corrupto_21)
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3563703.3596652
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3736765
+2025-09-23 00:43:23 - WARNING - ⚠️  Entrada corrupta detectada (clave=corrupto_22)
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3729237
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3713043.3731602
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3539618.3593069
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3530190.3534817
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=title:mauvescoresforgenerativemodelstheoryandpractice|pillutla krishna;liu lang;thickstun john;welleck sean;swayamdipta swabha;zellers rowan;oh sewoong;choi yejin;harchaoui zaid
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3744915.3749151
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3745812.3745858
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3708359.3712166
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3757749.3757836
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3731559
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3756580.3756641
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3704289.3704300
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3761820
+2025-09-23 00:43:23 - WARNING - ⚠️  Entrada corrupta detectada (clave=corrupto_23)
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3756423.3756568
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3746709.3746934
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3756580.3756622
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3757749.3757797
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3729605.3729638
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3732801.3732813
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3711129.3711250
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3687311.3687340
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3702386.3702400
+2025-09-23 00:43:23 - WARNING - ⚠️  Entrada corrupta detectada (clave=corrupto_24)
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3748239.3748247
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3744367.3744392
+2025-09-23 00:43:23 - WARNING - ⚠️  Entrada corrupta detectada (clave=corrupto_25)
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3698061.3742799
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3628516.3655811
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3675888.3676033
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3756580.3756588
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3696952.3696992
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3708036.3708125
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3721242.3734012
+2025-09-23 00:43:23 - WARNING - ⚠️  Entrada corrupta detectada (clave=corrupto_26)
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3729605.3729626
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3718491.3718558
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3706370.3727855
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3756423.3756550
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3722237.3722266
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3702038.3702059
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3722237.3722403
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3718491.3718662
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3744367.3744423
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3714334.3714362
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3708036.3708256
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3686703
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3732299.3732340
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3727353.3727363
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3705618.3705621
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3744367.3744405
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3711403.3711456
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3696630.3731471
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3701047.3701074
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3735631
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3744367.3744417
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3715275.3732080
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3657054.3657125
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3717383.3719313
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=title:promptingcollaborationdevelopmentofanmultidisciplinaryappliedaiminorprogram|bandi ajay;blackford benjamin;fellah aziz;linville diana;meyer trevor;voss robert
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3706599.3716397
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3706599.3716224
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3732801.3732812
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3641554.3701932
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3698061.3726940
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3715669.3728427
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3715668.3734163
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3715668.3735626
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1109/icse-companion66252.2025.00046
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3722237.3722260
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3737609.3747110
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3641555.3705152
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3724363.3729050
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3715977
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3715703
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3713068
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3708394.3708447
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3676149
+2025-09-23 00:43:23 - WARNING - ⚠️  Entrada corrupta detectada (clave=corrupto_27)
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3708035.3736071
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3736426.3736491
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3707200
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3704268.3748675
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3708557.3716363
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3759275.3759296
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3649217.3653573
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3760526
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3677389.3702596
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3711403.3711438
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3711403.3711419
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3747912.3747959
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3641237.3691660
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3647722.3647738
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3677389.3702545
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3641555.3705281
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3726010.3726022
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1109/icse-companion66252.2025.00048
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1109/icse-companion66252.2025.00043
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3706599.3720312
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3726010.3726049
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3708816.3708818
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3749886.3749889
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3722237.3722374
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3715668.3736384
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3698061.3726964
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3746469.3746605
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3660515.3662840
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3746469.3746521
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3743049.3748559
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3675812.3675864
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3726010.3726046
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3719276.3725203
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3701716.3715495
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3746972.3747003
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3732796
+2025-09-23 00:43:23 - WARNING - ⚠️  Entrada corrupta detectada (clave=corrupto_28)
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3644477
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3703395
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3747012.3747033
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3661904.3661921
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3677892.3677941
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1177/26339137241308821
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3712255.3726634
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3745238.3745344
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3729605.3729658
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3729605.3729659
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3708036.3708077
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3745238.3745479
+2025-09-23 00:43:23 - WARNING - ⚠️  Entrada corrupta detectada (clave=corrupto_29)
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3756423.3756563
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3695860
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3729706.3729811
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3745238.3745269
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3698205.3733922
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3654789
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3729605.3729646
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3729706.3729773
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3705328.3759318
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3716368.3735218
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3603287.3651196
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3701716.3717543
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3675812.3675843
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3656021.3656027
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3719160.3728626
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3630744.3658410
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3733006.3733015
+2025-09-23 00:43:23 - WARNING - ⚠️  Entrada corrupta detectada (clave=corrupto_30)
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3644713.3644827
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3644476
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3680127.3680194
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3718751.3718781
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3589636
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3719160.3737634
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3644938
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3722237.3722268
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3759928.3759934
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3711129.3711253
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3745238.3745397
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3627673.3680117
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3627915.3628020
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=title:participatorydesigninvestigationforspatialinteractionsinageingpopulation|zhou dezijian;zhao yi;xie jialing;bian wenkai;deng yuanyuan;globa anastasia
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3652988.3673939
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3730436.3730449
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3732801.3732816
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3746469.3746595
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3746469.3746539
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3701716.3717658
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3613904.3642229
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3766901
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3736777
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=title:evaluatingthepedagogicalimpactoflargelanguagemodelsonprogrammingskillsinhighereducation|crocetti giancarlo;bak seonwoo;noory naqib;vautor-laplaceliere daena
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3706599.3720238
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3732801.3732818
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3744103.3744104
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3746469.3746527
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3745133.3745189
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3757749.3757866
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3708319.3733709
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3722237.3722292
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3722237.3722255
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3711919.3728676
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3715668.3736365
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3703187.3703241
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3652620.3687776
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3745238.3745457
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3746469.3746558
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3635636.3660500
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3716368.3735301
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3711542.3711564
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1109/scw63240.2024.00103
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3706599.3719888
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3723178.3723295
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3709026.3709101
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3697355.3697413
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3723890.3723922
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3756580.3756591
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3630106.3658995
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3722237.3722369
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3706599.3706723
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3697355.3697409
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3756423.3756512
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3605390.3610813
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3696410.3714679
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3706598.3713529
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3700297.3700406
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3745533.3745585
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3715669.3725868
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3706599.3719862
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3727993.3728069
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3745133.3745142
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3726122.3726265
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3657604.3664708
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3706599.3719281
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3688086
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3613905.3648655
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3702163.3702448
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3632634.3655874
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3661314
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=url:https://doi.org/10.1145/3724504.3724634
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1109/ase56229.2023.00204
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3640471.3680462
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3712716.3712718
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3627673.3680268
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3706468.3706490
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3706599.3720075
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3664647.3688983
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3711403.3711442
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3612783.3612812
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3674846
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3702386.3702393
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3719209
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3711403.3711424
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3724363.3729096
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3626203.3670577
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3680127.3680226
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3600211.3604746
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3677892.3677966
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3727336.3727338
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3613904.3642703
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3706599.3720145
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3687311.3687336
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3706599.3719875
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3653682
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3635636.3664268
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3604915.3608760
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3613905.3638193
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3702386.3702399
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3670013.3670044
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3631700.3665241
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3686852.3686854
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3672608.3707832
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3695794.3695812
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3624062.3624147
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3686081.3686129
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3651671.3651681
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3657604.3664699
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3724363.3729054
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3675812.3675879
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3589335.3651251
+2025-09-23 00:43:23 - WARNING - ⚠️  Entrada corrupta detectada (clave=corrupto_31)
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3708359.3712125
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3726010.3726064
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3628096.3629066
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3678884.3681875
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3687311.3687390
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3589154
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3665494
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3675669.3675683
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3702386.3702397
+2025-09-23 00:43:23 - WARNING - ⚠️  Entrada corrupta detectada (clave=corrupto_32)
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:10.1145/3756580.3756596
+2025-09-23 00:43:23 - INFO - ℹ️  Limpieza de keywords iniciada en: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603683195.bib
+2025-09-23 00:43:23 - INFO - [EXITO] ✅  Limpieza de keywords completada: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603683195.bib
+2025-09-23 00:43:23 - INFO - ℹ️  Procesando archivo: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603683195.bib
+2025-09-23 00:43:23 - INFO - ℹ️  Limpieza de keywords iniciada en: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603696605.bib
+2025-09-23 00:43:23 - INFO - [EXITO] ✅  Limpieza de keywords completada: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603696605.bib
+2025-09-23 00:43:23 - INFO - ℹ️  Procesando archivo: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603696605.bib
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:https://doi.org/10.1016/s0016-5085(25)01677-4
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:https://doi.org/10.1016/j.jval.2025.04.1185
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:https://doi.org/10.1016/j.compag.2025.109919
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:https://doi.org/10.1016/j.lmot.2025.102114
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:https://doi.org/10.1016/j.ijom.2025.04.126
+2025-09-23 00:43:23 - INFO - ℹ️  Limpieza de keywords iniciada en: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603709806.bib
+2025-09-23 00:43:23 - INFO - [EXITO] ✅  Limpieza de keywords completada: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603709806.bib
+2025-09-23 00:43:23 - INFO - ℹ️  Procesando archivo: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603709806.bib
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:https://doi.org/10.1016/j.ejmp.2024.104690
+2025-09-23 00:43:23 - INFO - ℹ️  Limpieza de keywords iniciada en: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603723291.bib
+2025-09-23 00:43:23 - INFO - [EXITO] ✅  Limpieza de keywords completada: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603723291.bib
+2025-09-23 00:43:23 - INFO - ℹ️  Procesando archivo: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603723291.bib
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:https://doi.org/10.1016/s0302-2838(24)00773-5
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:https://doi.org/10.1016/j.jpsychores.2025.112113
+2025-09-23 00:43:23 - INFO - ℹ️  Limpieza de keywords iniciada en: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603736886.bib
+2025-09-23 00:43:23 - INFO - [EXITO] ✅  Limpieza de keywords completada: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603736886.bib
+2025-09-23 00:43:23 - INFO - ℹ️  Procesando archivo: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603736886.bib
+2025-09-23 00:43:23 - INFO - ℹ️  Limpieza de keywords iniciada en: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603750280.bib
+2025-09-23 00:43:23 - INFO - [EXITO] ✅  Limpieza de keywords completada: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603750280.bib
+2025-09-23 00:43:23 - INFO - ℹ️  Procesando archivo: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603750280.bib
+2025-09-23 00:43:23 - WARNING - ⚠️  Clave duplicada detectada: WANG2025 → renombrada como WANG2025_2
+2025-09-23 00:43:23 - INFO - ℹ️  Limpieza de keywords iniciada en: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603763606.bib
+2025-09-23 00:43:23 - INFO - [EXITO] ✅  Limpieza de keywords completada: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603763606.bib
+2025-09-23 00:43:23 - INFO - ℹ️  Procesando archivo: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603763606.bib
+2025-09-23 00:43:23 - INFO - ℹ️  Duplicado detectado para recurso=doi:https://doi.org/10.1016/j.ajp.2025.104499
+2025-09-23 00:43:23 - INFO - ℹ️  Limpieza de keywords iniciada en: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603776920.bib
+2025-09-23 00:43:23 - INFO - [EXITO] ✅  Limpieza de keywords completada: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603776920.bib
+2025-09-23 00:43:23 - INFO - ℹ️  Procesando archivo: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603776920.bib
+2025-09-23 00:43:24 - INFO - ℹ️  Limpieza de keywords iniciada en: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603790228.bib
+2025-09-23 00:43:24 - INFO - [EXITO] ✅  Limpieza de keywords completada: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603790228.bib
+2025-09-23 00:43:24 - INFO - ℹ️  Procesando archivo: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603790228.bib
+2025-09-23 00:43:24 - INFO - ℹ️  Duplicado detectado para recurso=doi:https://doi.org/10.1016/j.idnow.2025.105131
+2025-09-23 00:43:24 - INFO - ℹ️  Duplicado detectado para recurso=doi:https://doi.org/10.2196/70409
+2025-09-23 00:43:24 - INFO - ℹ️  Limpieza de keywords iniciada en: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603803531.bib
+2025-09-23 00:43:24 - INFO - [EXITO] ✅  Limpieza de keywords completada: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603803531.bib
+2025-09-23 00:43:24 - INFO - ℹ️  Procesando archivo: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603803531.bib
+2025-09-23 00:43:24 - INFO - ℹ️  Duplicado detectado para recurso=doi:https://doi.org/10.2196/49647
+2025-09-23 00:43:24 - INFO - ℹ️  Limpieza de keywords iniciada en: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603817004.bib
+2025-09-23 00:43:24 - INFO - [EXITO] ✅  Limpieza de keywords completada: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603817004.bib
+2025-09-23 00:43:24 - INFO - ℹ️  Procesando archivo: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603817004.bib
+2025-09-23 00:43:24 - INFO - ℹ️  Duplicado detectado para recurso=doi:https://doi.org/10.1016/j.psychsport.2025.102879
+2025-09-23 00:43:24 - INFO - ℹ️  Limpieza de keywords iniciada en: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603830406.bib
+2025-09-23 00:43:24 - INFO - [EXITO] ✅  Limpieza de keywords completada: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603830406.bib
+2025-09-23 00:43:24 - INFO - ℹ️  Procesando archivo: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603830406.bib
+2025-09-23 00:43:24 - INFO - ℹ️  Limpieza de keywords iniciada en: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603843552.bib
+2025-09-23 00:43:24 - INFO - [EXITO] ✅  Limpieza de keywords completada: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603843552.bib
+2025-09-23 00:43:24 - INFO - ℹ️  Procesando archivo: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603843552.bib
+2025-09-23 00:43:24 - WARNING - ⚠️  Clave duplicada detectada: 2026i → renombrada como 2026i_2
+2025-09-23 00:43:24 - INFO - ℹ️  Limpieza de keywords iniciada en: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603856269.bib
+2025-09-23 00:43:24 - INFO - [EXITO] ✅  Limpieza de keywords completada: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603856269.bib
+2025-09-23 00:43:24 - INFO - ℹ️  Procesando archivo: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603856269.bib
+2025-09-23 00:43:24 - WARNING - ⚠️  Clave duplicada detectada: 2025i → renombrada como 2025i_2
+2025-09-23 00:43:24 - WARNING - ⚠️  Clave duplicada detectada: 2025i → renombrada como 2025i_3
+2025-09-23 00:43:24 - WARNING - ⚠️  Clave duplicada detectada: 2025i → renombrada como 2025i_4
+2025-09-23 00:43:24 - INFO - ℹ️  Limpieza de keywords iniciada en: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603869623.bib
+2025-09-23 00:43:24 - INFO - [EXITO] ✅  Limpieza de keywords completada: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603869623.bib
+2025-09-23 00:43:24 - INFO - ℹ️  Procesando archivo: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603869623.bib
+2025-09-23 00:43:24 - WARNING - ⚠️  Clave duplicada detectada: SHIH2025 → renombrada como SHIH2025_2
+2025-09-23 00:43:24 - INFO - ℹ️  Limpieza de keywords iniciada en: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603882961.bib
+2025-09-23 00:43:24 - INFO - [EXITO] ✅  Limpieza de keywords completada: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603882961.bib
+2025-09-23 00:43:24 - INFO - ℹ️  Procesando archivo: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603882961.bib
+2025-09-23 00:43:24 - WARNING - ⚠️  Clave duplicada detectada: HE2025 → renombrada como HE2025_2
+2025-09-23 00:43:24 - WARNING - ⚠️  Clave duplicada detectada: 2025v → renombrada como 2025v_2
+2025-09-23 00:43:24 - INFO - ℹ️  Limpieza de keywords iniciada en: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603896408.bib
+2025-09-23 00:43:24 - INFO - [EXITO] ✅  Limpieza de keywords completada: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603896408.bib
+2025-09-23 00:43:24 - INFO - ℹ️  Procesando archivo: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603896408.bib
+2025-09-23 00:43:24 - INFO - ℹ️  Duplicado detectado para recurso=doi:https://doi.org/10.1016/s0140-6736(25)00249-1
+2025-09-23 00:43:24 - INFO - ℹ️  Duplicado detectado para recurso=doi:https://doi.org/10.1016/j.arbres.2023.12.003
+2025-09-23 00:43:24 - INFO - ℹ️  Duplicado detectado para recurso=doi:https://doi.org/10.1016/s1471-4914(23)00244-7
+2025-09-23 00:43:24 - INFO - ℹ️  Duplicado detectado para recurso=doi:https://doi.org/10.1016/j.cnur.2025.01.011
+2025-09-23 00:43:24 - INFO - ℹ️  Limpieza de keywords iniciada en: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603909789.bib
+2025-09-23 00:43:24 - INFO - [EXITO] ✅  Limpieza de keywords completada: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603909789.bib
+2025-09-23 00:43:24 - INFO - ℹ️  Procesando archivo: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603909789.bib
+2025-09-23 00:43:24 - INFO - ℹ️  Limpieza de keywords iniciada en: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603923287.bib
+2025-09-23 00:43:24 - INFO - [EXITO] ✅  Limpieza de keywords completada: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603923287.bib
+2025-09-23 00:43:24 - INFO - ℹ️  Procesando archivo: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603923287.bib
+2025-09-23 00:43:24 - INFO - ℹ️  Duplicado detectado para recurso=doi:https://doi.org/10.2196/67363
+2025-09-23 00:43:24 - INFO - ℹ️  Duplicado detectado para recurso=doi:https://doi.org/10.1016/j.procs.2024.11.057
+2025-09-23 00:43:24 - INFO - ℹ️  Duplicado detectado para recurso=doi:https://doi.org/10.1016/s1546-1440(25)00039-0
+2025-09-23 00:43:24 - INFO - ℹ️  Duplicado detectado para recurso=doi:https://doi.org/10.1016/j.ijnurstu.2024.104771
+2025-09-23 00:43:24 - INFO - ℹ️  Duplicado detectado para recurso=doi:https://doi.org/10.1053/j.gastro.2023.12.019
+2025-09-23 00:43:24 - INFO - ℹ️  Limpieza de keywords iniciada en: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603936479.bib
+2025-09-23 00:43:24 - INFO - [EXITO] ✅  Limpieza de keywords completada: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603936479.bib
+2025-09-23 00:43:24 - INFO - ℹ️  Procesando archivo: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603936479.bib
+2025-09-23 00:43:24 - WARNING - ⚠️  Clave duplicada detectada: LI2024 → renombrada como LI2024_2
+2025-09-23 00:43:24 - WARNING - ⚠️  Clave duplicada detectada: 2024A3 → renombrada como 2024A3_2
+2025-09-23 00:43:24 - WARNING - ⚠️  Clave duplicada detectada: DUBINSKY2025S-856 → renombrada como DUBINSKY2025S-856_2
+2025-09-23 00:43:24 - INFO - ℹ️  Duplicado detectado para recurso=doi:https://doi.org/10.1016/j.bsheal.2025.09.004
+2025-09-23 00:43:24 - INFO - ℹ️  Duplicado detectado para recurso=doi:https://doi.org/10.1016/j.xinn.2023.100516
+2025-09-23 00:43:24 - INFO - ℹ️  Duplicado detectado para recurso=doi:https://doi.org/10.2196/66804
+2025-09-23 00:43:24 - INFO - ℹ️  Duplicado detectado para recurso=doi:https://doi.org/10.1016/j.jdin.2023.10.001
+2025-09-23 00:43:24 - INFO - ℹ️  Duplicado detectado para recurso=doi:https://doi.org/10.1016/j.otsr.2025.104313
+2025-09-23 00:43:24 - INFO - ℹ️  Limpieza de keywords iniciada en: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603950032.bib
+2025-09-23 00:43:24 - INFO - [EXITO] ✅  Limpieza de keywords completada: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603950032.bib
+2025-09-23 00:43:24 - INFO - ℹ️  Procesando archivo: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603950032.bib
+2025-09-23 00:43:25 - INFO - ℹ️  Limpieza de keywords iniciada en: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603963825.bib
+2025-09-23 00:43:25 - INFO - [EXITO] ✅  Limpieza de keywords completada: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603963825.bib
+2025-09-23 00:43:25 - INFO - ℹ️  Procesando archivo: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603963825.bib
+2025-09-23 00:43:25 - INFO - ℹ️  Limpieza de keywords iniciada en: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603976554.bib
+2025-09-23 00:43:25 - INFO - [EXITO] ✅  Limpieza de keywords completada: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603976554.bib
+2025-09-23 00:43:25 - INFO - ℹ️  Procesando archivo: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603976554.bib
+2025-09-23 00:43:25 - INFO - ℹ️  Duplicado detectado para recurso=doi:https://doi.org/10.1016/j.cjac.2025.100620
+2025-09-23 00:43:25 - INFO - ℹ️  Duplicado detectado para recurso=doi:https://doi.org/10.1016/j.arthro.2024.09.020
+2025-09-23 00:43:25 - INFO - ℹ️  Duplicado detectado para recurso=doi:https://doi.org/10.1016/j.inffus.2025.103121
+2025-09-23 00:43:25 - INFO - ℹ️  Duplicado detectado para recurso=doi:https://doi.org/10.1016/j.tem.2025.08.004
+2025-09-23 00:43:25 - INFO - ℹ️  Duplicado detectado para recurso=doi:https://doi.org/10.2196/69955
+2025-09-23 00:43:25 - INFO - ℹ️  Duplicado detectado para recurso=doi:https://doi.org/10.2196/66478
+2025-09-23 00:43:25 - INFO - ℹ️  Duplicado detectado para recurso=doi:https://doi.org/10.2196/65210
+2025-09-23 00:43:25 - INFO - ℹ️  Duplicado detectado para recurso=doi:https://doi.org/10.1530/eor-24-0029
+2025-09-23 00:43:25 - INFO - ℹ️  Limpieza de keywords iniciada en: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603990238.bib
+2025-09-23 00:43:25 - INFO - [EXITO] ✅  Limpieza de keywords completada: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603990238.bib
+2025-09-23 00:43:25 - INFO - ℹ️  Procesando archivo: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758603990238.bib
+2025-09-23 00:43:25 - WARNING - ⚠️  Clave duplicada detectada: 2023A3 → renombrada como 2023A3_2
+2025-09-23 00:43:25 - INFO - ℹ️  Limpieza de keywords iniciada en: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758604003657.bib
+2025-09-23 00:43:25 - INFO - [EXITO] ✅  Limpieza de keywords completada: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758604003657.bib
+2025-09-23 00:43:25 - INFO - ℹ️  Procesando archivo: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758604003657.bib
+2025-09-23 00:43:25 - INFO - ℹ️  Duplicado detectado para recurso=doi:https://doi.org/10.1016/j.otsr.2024.103830
+2025-09-23 00:43:25 - INFO - ℹ️  Duplicado detectado para recurso=doi:https://doi.org/10.1016/j.techfore.2024.123843
+2025-09-23 00:43:25 - INFO - ℹ️  Duplicado detectado para recurso=doi:https://doi.org/10.1016/j.ahj.2025.06.019
+2025-09-23 00:43:25 - INFO - ℹ️  Duplicado detectado para recurso=doi:https://doi.org/10.1016/j.otsr.2024.104012
+2025-09-23 00:43:25 - INFO - ℹ️  Duplicado detectado para recurso=doi:https://doi.org/10.1016/j.caeai.2025.100473
+2025-09-23 00:43:34 - INFO - [EXITO] ✅  Archivo consolidado generado: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\consolidado.bib (3447 entradas)
+2025-09-23 00:43:34 - WARNING - ⚠️  Archivo de corruptos generado: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\corruptos.bib (32 entradas)
+2025-09-23 00:43:36 - INFO - ℹ️  Archivo de duplicados generado: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\duplicados.bib (1021 entradas)
+2025-09-23 00:43:36 - INFO - [EXITO] ✅  Proceso de deduplicación finalizado correctamente.
+2025-09-23 00:43:36 - INFO - [EXITO] ✅  Pipeline completado con éxito 🚀
+2025-09-23 00:43:36 - INFO - ℹ️  Iniciando análisis de algoritmos de ordenamiento de artículos...
+2025-09-23 00:43:36 - INFO - ℹ️  Cargando archivo BibTeX: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\consolidado.bib
+2025-09-23 00:43:38 - INFO - [EXITO] ✅  Se cargaron 3447 productos académicos para el análisis.
+2025-09-23 00:43:38 - INFO - ℹ️  Iniciando ejecución de TimSort con 3447 elementos...
+2025-09-23 00:43:38 - INFO - [EXITO] ✅  TimSort completado en 0.004283 segundos.
+2025-09-23 00:43:38 - INFO - ℹ️  Iniciando ejecución de Comb Sort con 3447 elementos...
+2025-09-23 00:43:38 - INFO - [EXITO] ✅  Comb Sort completado en 0.103870 segundos.
+2025-09-23 00:43:38 - INFO - ℹ️  Iniciando ejecución de Selection Sort con 3447 elementos...
+2025-09-23 00:43:43 - INFO - [EXITO] ✅  Selection Sort completado en 4.751675 segundos.
+2025-09-23 00:43:43 - INFO - ℹ️  Iniciando ejecución de Tree Sort con 3447 elementos...
+2025-09-23 00:43:43 - INFO - [EXITO] ✅  Tree Sort completado en 0.041081 segundos.
+2025-09-23 00:43:43 - INFO - ℹ️  Iniciando ejecución de Pigeonhole Sort con 3447 elementos...
+2025-09-23 00:43:43 - WARNING - ⚠️  Pigeonhole Sort usará clave numérica (hash) para el ordenamiento.
+2025-09-23 00:43:43 - INFO - [EXITO] ✅  Pigeonhole Sort completado en 0.004999 segundos.
+2025-09-23 00:43:43 - INFO - ℹ️  Iniciando ejecución de BucketSort con 3447 elementos...
+2025-09-23 00:43:43 - WARNING - ⚠️  BucketSort usará clave numérica (hash) para el ordenamiento.
+2025-09-23 00:43:43 - WARNING - ⚠️  BucketSort falló durante la ejecución: list index out of range. Reintentando...
+2025-09-23 00:43:43 - WARNING - ⚠️  BucketSort usará clave numérica (hash) para el ordenamiento.
+2025-09-23 00:43:43 - WARNING - ⚠️  BucketSort falló durante la ejecución: list index out of range. Reintentando...
+2025-09-23 00:43:43 - WARNING - ⚠️  BucketSort usará clave numérica (hash) para el ordenamiento.
+2025-09-23 00:43:43 - WARNING - ⚠️  BucketSort falló durante la ejecución: list index out of range. Reintentando...
+2025-09-23 00:43:43 - WARNING - ⚠️  BucketSort usará clave numérica (hash) para el ordenamiento.
+2025-09-23 00:43:43 - WARNING - ⚠️  BucketSort falló durante la ejecución: list index out of range. Reintentando...
+2025-09-23 00:43:43 - WARNING - ⚠️  BucketSort usará clave numérica (hash) para el ordenamiento.
+2025-09-23 00:43:43 - WARNING - ⚠️  BucketSort falló durante la ejecución: list index out of range. Reintentando...
+2025-09-23 00:43:43 - WARNING - ⚠️  BucketSort usará clave numérica (hash) para el ordenamiento.
+2025-09-23 00:43:43 - WARNING - ⚠️  BucketSort falló durante la ejecución: list index out of range. Reintentando...
+2025-09-23 00:43:43 - WARNING - ⚠️  BucketSort usará clave numérica (hash) para el ordenamiento.
+2025-09-23 00:43:43 - WARNING - ⚠️  BucketSort falló durante la ejecución: list index out of range. Reintentando...
+2025-09-23 00:43:43 - WARNING - ⚠️  BucketSort usará clave numérica (hash) para el ordenamiento.
+2025-09-23 00:43:43 - WARNING - ⚠️  BucketSort falló durante la ejecución: list index out of range. Reintentando...
+2025-09-23 00:43:43 - WARNING - ⚠️  BucketSort usará clave numérica (hash) para el ordenamiento.
+2025-09-23 00:43:43 - WARNING - ⚠️  BucketSort falló durante la ejecución: list index out of range. Reintentando...
+2025-09-23 00:43:43 - WARNING - ⚠️  BucketSort usará clave numérica (hash) para el ordenamiento.
+2025-09-23 00:43:43 - ERROR - ❌  BucketSort falló durante la ejecución: list index out of range. Fallo definitivo...
+2025-09-23 00:43:43 - INFO - ℹ️  Iniciando ejecución de QuickSort con 3447 elementos...
+2025-09-23 00:43:43 - INFO - [EXITO] ✅  QuickSort completado en 0.063814 segundos.
+2025-09-23 00:43:43 - INFO - ℹ️  Iniciando ejecución de HeapSort con 3447 elementos...
+2025-09-23 00:43:43 - INFO - [EXITO] ✅  HeapSort completado en 0.061635 segundos.
+2025-09-23 00:43:43 - INFO - ℹ️  Iniciando ejecución de Bitonic Sort con 3447 elementos...
+2025-09-23 00:43:43 - WARNING - ⚠️  Bitonic Sort usará clave numérica (hash) para el ordenamiento.
+2025-09-23 00:43:43 - INFO - [EXITO] ✅  Bitonic Sort completado en 0.111755 segundos.
+2025-09-23 00:43:43 - INFO - ℹ️  Iniciando ejecución de Gnome Sort con 3447 elementos...
+2025-09-23 00:43:48 - INFO - [EXITO] ✅  Gnome Sort completado en 4.974694 segundos.
+2025-09-23 00:43:48 - INFO - ℹ️  Iniciando ejecución de Binary Insertion Sort con 3447 elementos...
+2025-09-23 00:43:48 - INFO - [EXITO] ✅  Binary Insertion Sort completado en 0.190909 segundos.
+2025-09-23 00:43:48 - INFO - ℹ️  Iniciando ejecución de RadixSort con 3447 elementos...
+2025-09-23 00:43:48 - WARNING - ⚠️  RadixSort usará clave numérica (hash) para el ordenamiento.
+2025-09-23 00:43:49 - INFO - [EXITO] ✅  RadixSort completado en 0.235851 segundos.
+2025-09-23 00:43:49 - INFO - [EXITO] ✅  Resultados exportados a CSV: src/datos/sorters_analisis/algoritmos.csv
+2025-09-23 00:43:50 - INFO - [EXITO] ✅  Diagrama de barras generado: src/datos/sorters_analisis/algoritmos.png
+2025-09-23 00:43:50 - INFO - [EXITO] ✅  Análisis de algoritmos de ordenamiento finalizado.
+2025-09-23 00:43:50 - INFO - [EXITO] ✅  Analisis de algorítmos de ordenamiento de artículos completado con éxito 🚀
