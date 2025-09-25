@@ -67,7 +67,7 @@ def descargar_articulos_sciencedirect():
         time.sleep(5)
 
         total_descargados = 0
-        LIMITE_TOTAL = 4400
+        LIMITE_TOTAL = 3317
 
         while total_descargados < LIMITE_TOTAL:
             registro.registrar(f"Procesando bloque {total_descargados + 1} a {total_descargados + 100}...", nivel="INFO")
@@ -104,7 +104,7 @@ def descargar_articulos_sciencedirect():
 
             total_descargados += 100
 
-            if total_descargados > LIMITE_TOTAL:
+            if total_descargados >= LIMITE_TOTAL:
                 registro.registrar(f"Límite de {LIMITE_TOTAL} artículos alcanzado. Finalizando...", nivel="EXITO")
                 break
 
