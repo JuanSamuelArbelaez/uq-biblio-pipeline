@@ -27,8 +27,6 @@ def deduplicar_bibtex(archivos, salida_consolidado, salida_corruptos, salida_dup
     registro.registrar("Iniciando proceso de deduplicación de BibTeX...", nivel="INFO")
 
     for archivo in archivos:
-        limpiar_keywords_bibtex(archivo)
-
         registro.registrar(f"Procesando archivo: {archivo}", nivel="INFO")
         bib = cargar_bibtex_seguro(archivo)
 
@@ -59,10 +57,14 @@ def deduplicar_bibtex(archivos, salida_consolidado, salida_corruptos, salida_dup
 
             # Resolver colisiones de claves BibTeX (key repetida para recursos distintos)
             clave_final = key
+            contador = 1
+
             while clave_final in todas_claves and (
                 recurso_id not in validos or validos[recurso_id][0] != clave_final
             ):
-                clave_final = f"{clave_final}_dup"
+                contador += 1
+                clave_final = f"{key}_{contador}"
+
             todas_claves.add(clave_final)
 
             # Deduplicar por recurso_id

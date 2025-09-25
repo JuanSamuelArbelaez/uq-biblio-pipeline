@@ -67,7 +67,7 @@ def descargar_articulos_sciencedirect():
         time.sleep(5)
 
         total_descargados = 0
-        LIMITE_TOTAL = 4000
+        LIMITE_TOTAL = 4400
 
         while total_descargados < LIMITE_TOTAL:
             registro.registrar(f"Procesando bloque {total_descargados + 1} a {total_descargados + 100}...", nivel="INFO")
@@ -75,13 +75,13 @@ def descargar_articulos_sciencedirect():
             if total_descargados > 0:
                 # Seleccionar todos los artículos (desbugueo del selector)
                 registro.registrar("Debugueando el selector de artículo", nivel="INFO")
-                time.sleep(3) 
+                time.sleep(4) 
                 label_checkbox = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "label[for='select-all-results']")))
                 navegador.execute_script("arguments[0].click();", label_checkbox)
 
             # Seleccionar todos los artículos
             registro.registrar("Seleccionando todos los artículos de la página...", nivel="EXITO")
-            time.sleep(2) 
+            time.sleep(3) 
             label_checkbox = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "label[for='select-all-results']")))
             navegador.execute_script("arguments[0].click();", label_checkbox)
 
@@ -104,7 +104,7 @@ def descargar_articulos_sciencedirect():
 
             total_descargados += 100
 
-            if total_descargados >= LIMITE_TOTAL:
+            if total_descargados > LIMITE_TOTAL:
                 registro.registrar(f"Límite de {LIMITE_TOTAL} artículos alcanzado. Finalizando...", nivel="EXITO")
                 break
 

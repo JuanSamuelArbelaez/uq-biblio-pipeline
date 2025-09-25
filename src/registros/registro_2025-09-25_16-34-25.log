@@ -1,0 +1,38 @@
+2025-09-25 16:34:26 - INFO - ℹ️  Iniciando proceso de descarga de artículos...
+2025-09-25 16:34:26 - INFO - ℹ️  Iniciando proceso de deduplicación de BibTeX...
+2025-09-25 16:34:26 - INFO - ℹ️  Limpieza de keywords iniciada en: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\acm.bib
+2025-09-25 16:34:26 - INFO - [EXITO] ✅  Limpieza de keywords completada: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\acm.bib
+2025-09-25 16:34:26 - INFO - ℹ️  Procesando archivo: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\acm.bib
+2025-09-25 16:34:27 - WARNING - ⚠️  Entrada corrupta detectada (clave=corrupto_1)
+2025-09-25 16:34:27 - WARNING - ⚠️  Entrada corrupta detectada (clave=corrupto_2)
+2025-09-25 16:34:27 - WARNING - ⚠️  Entrada corrupta detectada (clave=corrupto_3)
+2025-09-25 16:34:27 - WARNING - ⚠️  Entrada corrupta detectada (clave=corrupto_4)
+2025-09-25 16:34:27 - WARNING - ⚠️  Entrada corrupta detectada (clave=corrupto_5)
+2025-09-25 16:34:27 - WARNING - ⚠️  Entrada corrupta detectada (clave=corrupto_6)
+2025-09-25 16:34:27 - WARNING - ⚠️  Entrada corrupta detectada (clave=corrupto_7)
+2025-09-25 16:34:27 - WARNING - ⚠️  Entrada corrupta detectada (clave=corrupto_8)
+2025-09-25 16:34:27 - WARNING - ⚠️  Entrada corrupta detectada (clave=corrupto_9)
+2025-09-25 16:34:27 - WARNING - ⚠️  Entrada corrupta detectada (clave=corrupto_10)
+2025-09-25 16:34:27 - WARNING - ⚠️  Entrada corrupta detectada (clave=corrupto_11)
+2025-09-25 16:34:27 - WARNING - ⚠️  Entrada corrupta detectada (clave=corrupto_12)
+2025-09-25 16:34:27 - WARNING - ⚠️  Entrada corrupta detectada (clave=corrupto_13)
+2025-09-25 16:34:27 - WARNING - ⚠️  Entrada corrupta detectada (clave=corrupto_14)
+2025-09-25 16:34:27 - WARNING - ⚠️  Entrada corrupta detectada (clave=corrupto_15)
+2025-09-25 16:34:27 - INFO - ℹ️  Limpieza de keywords iniciada en: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758832880477.bib
+2025-09-25 16:34:27 - INFO - [EXITO] ✅  Limpieza de keywords completada: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758832880477.bib
+2025-09-25 16:34:27 - INFO - ℹ️  Procesando archivo: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758832880477.bib
+2025-09-25 16:34:28 - INFO - ℹ️  Limpieza de keywords iniciada en: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758832897494.bib
+2025-09-25 16:34:28 - INFO - [EXITO] ✅  Limpieza de keywords completada: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758832897494.bib
+2025-09-25 16:34:28 - INFO - ℹ️  Procesando archivo: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758832897494.bib
+2025-09-25 16:34:28 - INFO - ℹ️  Duplicado detectado para recurso=doi:https://doi.org/10.1016/j.jval.2025.04.1290
+2025-09-25 16:34:28 - INFO - ℹ️  Duplicado detectado para recurso=doi:https://doi.org/10.1016/j.lmot.2025.102114
+2025-09-25 16:34:28 - INFO - ℹ️  Limpieza de keywords iniciada en: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758832914607.bib
+2025-09-25 16:34:28 - INFO - [EXITO] ✅  Limpieza de keywords completada: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758832914607.bib
+2025-09-25 16:34:28 - INFO - ℹ️  Procesando archivo: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758832914607.bib
+2025-09-25 16:34:28 - INFO - ℹ️  Limpieza de keywords iniciada en: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758832931364.bib
+2025-09-25 16:34:28 - INFO - [EXITO] ✅  Limpieza de keywords completada: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758832931364.bib
+2025-09-25 16:34:28 - INFO - ℹ️  Procesando archivo: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758832931364.bib
+2025-09-25 16:34:28 - INFO - ℹ️  Duplicado detectado para recurso=doi:https://doi.org/10.1016/j.techsoc.2024.102710
+2025-09-25 16:34:28 - INFO - ℹ️  Limpieza de keywords iniciada en: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758832948458.bib
+2025-09-25 16:34:28 - INFO - [EXITO] ✅  Limpieza de keywords completada: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758832948458.bib
+2025-09-25 16:34:28 - INFO - ℹ️  Procesando archivo: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\crudos\ScienceDirect_citations_1758832948458.bib

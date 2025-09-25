@@ -51,7 +51,7 @@ def configurar_navegador(modovisual="M"):
 def esperar_archivo_descargado(ruta_descargas):
     """Espera hasta detectar un archivo .bib válido"""
     registro.registrar("Buscando archivo .bib...", nivel="INFO")
-    timeout = time.time() + 60*5  # 5 minutos máximo
+    timeout = time.time() + 60*5
     
     while time.time() < timeout:
         archivos = [

@@ -24,8 +24,8 @@ URL_ACM = 'https://dl.acm.org/action/doSearch?AllField="generative+artificial+in
 URL_SCIENCEDIRECT = 'https://www-sciencedirect-com.crai.referencistas.com/search?qs="generative+artificial+intelligence"&show=100'
 
 # 🔐 Credenciales de Gmail para SCIENCEDIRECT BIBLIOTECA CRAI
-EMAIL_GMAIL_SD = "jhoana.verav@uqvirtual.edu.co"
-CONTRASENA_GMAIL_SD = "Gmail!099139"
+EMAIL_GMAIL_SD = "dummy_mail@uqvirtual.edu.co"
+CONTRASENA_GMAIL_SD = "dummy_Password"
 
 # --- Rutas para archivos BibTeX ---
 RUTA_DESCARGAS_ARTICULOS = RUTA_BASE / "datos" / "bib" / "crudos"
