@@ -1,0 +1,4 @@
+2025-09-28 23:27:37 - INFO - ℹ️  Iniciando análisis de autores...
+2025-09-28 23:27:39 - INFO - [EXITO] ✅  Archivo BibTeX cargado: C:\Users\Samuel\VSC_Proyects\uq-biblio-pipeline\src\datos\bib\consolidado.bib
+2025-09-28 23:27:40 - INFO - [EXITO] ✅  Resultados exportados a CSV: src/datos/autores/top15_autores.csv
+2025-09-28 23:27:41 - INFO - [EXITO] ✅  Diagrama de barras generado: src/datos/autores/top15_autores.png

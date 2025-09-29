@@ -6,6 +6,7 @@ from src.utils.deduplicador import deduplicar_bibtex
 from src.utils.registro import registro
 from src.config.ajustes import RUTA_DESCARGAS_ARTICULOS, ARCHIVO_UNIFICADO
 from src.sorters.sorters import pigeonhole_sort
+from src.sorters.autores_top import analizar_autores
 
 def main():
     registro.registrar("Iniciando proceso de descarga de artículos...", nivel="INFO")
@@ -30,6 +31,14 @@ def main():
     df = analizar_algoritmos(salida_consolidado)
     print(df)
     registro.registrar("Analisis de algorítmos de ordenamiento de artículos completado con éxito 🚀", nivel="EXITO")
+
+
+    # 4️⃣ Ejecutar análisis de autores después del deduplicado
+    salida_consolidado = ARCHIVO_UNIFICADO.parent / "consolidado.bib"
+    salida_autores_csv = "src/datos/autores/top15_autores.csv"
+    salida_autores_png = "src/datos/autores/top15_autores.png"
+
+    analizar_autores(salida_consolidado, salida_autores_csv, salida_autores_png)
 
 
 if __name__ == "__main__":
