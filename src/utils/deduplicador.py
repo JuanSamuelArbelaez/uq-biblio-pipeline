@@ -11,17 +11,12 @@ def normalizar_texto(txt: str) -> str:
 def deduplicar_bibtex(archivos, salida_consolidado, salida_corruptos, salida_duplicados):
     """
     Deduplica archivos BibTeX priorizando DOI → URL → título+autores.
-    Maneja colisiones de claves BibTeX renombrándolas si apuntan a recursos distintos.
-    Genera:
-      - consolidado.bib → artículos válidos y únicos
-      - corruptos.bib   → artículos sin DOI, título o autores
-      - duplicados.bib  → una copia de cada artículo duplicado válido
+    Guarda artículos válidos con claves 'cons1', 'cons2', 'cons3', ...
     """
 
-    validos = {}       # recurso_id → (key, entrada)
-    duplicados = {}    # recurso_id → entrada duplicada
-    corruptos = {}     # clave generada → entradas corruptas
-    todas_claves = set()
+    validos = {}       # recurso_id → entrada
+    duplicados = {}
+    corruptos = {}
     contador_corruptos = 0
 
     registro.registrar("Iniciando proceso de deduplicación de BibTeX...", nivel="INFO")
@@ -47,7 +42,7 @@ def deduplicar_bibtex(archivos, salida_consolidado, salida_corruptos, salida_dup
             elif titulo and autores:
                 recurso_id = f"title:{titulo}|{autores}"
 
-            # Caso de corrupción: no se pudo generar identificador
+            # Caso de corrupción
             if not recurso_id:
                 contador_corruptos += 1
                 clave_corr = f"corrupto_{contador_corruptos}"
@@ -55,30 +50,20 @@ def deduplicar_bibtex(archivos, salida_consolidado, salida_corruptos, salida_dup
                 registro.registrar(f"Entrada corrupta detectada (clave={clave_corr})", nivel="ADVERTENCIA")
                 continue
 
-            # Resolver colisiones de claves BibTeX (key repetida para recursos distintos)
-            clave_final = key
-            contador = 1
-
-            while clave_final in todas_claves and (
-                recurso_id not in validos or validos[recurso_id][0] != clave_final
-            ):
-                contador += 1
-                clave_final = f"{key}_{contador}"
-
-            todas_claves.add(clave_final)
-
             # Deduplicar por recurso_id
             if recurso_id in validos:
-                # Ya existe: es un duplicado real
+                # Ya existe: duplicado
                 if recurso_id not in duplicados:
                     duplicados[recurso_id] = entrada
                 registro.registrar(f"Duplicado detectado para recurso={recurso_id}", nivel="INFO")
             else:
-                # Guardar como válido
-                validos[recurso_id] = (clave_final, entrada)
+                validos[recurso_id] = entrada
+
+    # ✅ Generar claves 'cons1', 'cons2', 'cons3', ...
+    entradas_finales = {f"cons{i}": e for i, e in enumerate(validos.values(), start=1)}
 
     # Guardar resultados
-    BibliographyData(entries={k: e for _, (k, e) in validos.items()}).to_file(salida_consolidado)
+    BibliographyData(entries=entradas_finales).to_file(salida_consolidado)
     registro.registrar_exito(f"Archivo consolidado generado: {salida_consolidado} ({len(validos)} entradas)")
 
     BibliographyData(entries=corruptos).to_file(salida_corruptos)
