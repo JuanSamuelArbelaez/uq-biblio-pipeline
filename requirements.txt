@@ -12,3 +12,7 @@ networkx>=3.5bibtexparser>=1.4.3
 scikit-learn>=1.7.2
 textdistance>=4.6.3
 sentence-transformers>=5.1.1
+pycountry>=24.6.1
+wordcloud>=1.9.4
+nltk>=3.9.2
+huggingface-hub>=0.35.3
