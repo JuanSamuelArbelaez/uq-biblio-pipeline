@@ -7,13 +7,15 @@ from src.utils.registro import registro
 from src.config.ajustes import RUTA_DESCARGAS_ARTICULOS, ARCHIVO_UNIFICADO
 from src.sorters.sorters import pigeonhole_sort
 from src.sorters.autores_top import analizar_autores
+from src.graphs.location_count_parser import generar_mapa_calor_bibtex
+from src.graphs.timeline_parser import generar_barras_bibtex, generar_areas_bibtex
 
 def main():
     registro.registrar("Iniciando proceso de descarga de artículos...", nivel="INFO")
 
     # 1️⃣ Ejecutar descargas
     descargador = DescargadorArticulos()
-    descargador.ejecutar()
+    # descargador.ejecutar()
 
     # 2️⃣ Ejecutar deduplicador después de las descargas
     archivos = list(Path(RUTA_DESCARGAS_ARTICULOS).glob("*.bib"))
@@ -39,6 +41,11 @@ def main():
     salida_autores_png = "src/datos/autores/top15_autores.png"
 
     analizar_autores(salida_consolidado, salida_autores_csv, salida_autores_png)
+
+    salida_consolidado = ARCHIVO_UNIFICADO.parent / "consolidado.bib"
+    generar_mapa_calor_bibtex(str(salida_consolidado), output_path="src/datos/graphs/location/location_bibtex.png")
+    generar_barras_bibtex(str(salida_consolidado), output_path="src/datos/graphs/timeline/timeline_areas_bibtex.png")
+    generar_areas_bibtex(str(salida_consolidado), output_path="src/datos/graphs/timeline/timeline_areas_bibtex.png")
 
 
 if __name__ == "__main__":
