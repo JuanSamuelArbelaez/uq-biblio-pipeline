@@ -8,3 +8,5 @@ loguru>=0.7.2
 tenacity>=8.5.0
 webdriver-manager>=4.0.1
 matplotlib>=3.8.0
+scikit-learn>=1.7.2
+pycountry>=24.6.1
