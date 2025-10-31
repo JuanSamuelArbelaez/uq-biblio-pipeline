@@ -30,7 +30,7 @@ CONTRASENA_GMAIL_SD = "dummy_Password"
 # --- Rutas para archivos BibTeX ---
 RUTA_DESCARGAS_ARTICULOS = RUTA_BASE / "datos" / "bib" / "crudos"
 RUTA_ARCHIVO_UNIFICADO = RUTA_BASE / "datos" / "bib"
-ARCHIVO_UNIFICADO = RUTA_ARCHIVO_UNIFICADO / "unificado.bib"
+ARCHIVO_UNIFICADO = RUTA_ARCHIVO_UNIFICADO / "consolidado.bib"
 
 # --- Configuración de agrupamiento (nuevo) ---
 RUTA_CLUSTERS = RUTA_BASE / "datos" / "clusters"

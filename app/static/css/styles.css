@@ -1,0 +1,209 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #f4f6f8;
+}
+
+#contenedor-principal {
+  width: 90%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+section {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h2 {
+  margin-top: 0;
+  border-bottom: 2px solid #007BFF;
+  padding-bottom: 5px;
+  color: #007BFF;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:hover {
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+tr.seleccionado {
+  background-color: #d0ebff !important;
+}
+
+.acciones {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.botones {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+.paginacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+#lista-seleccionados .articulo-item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 8px;
+  margin-bottom: 8px;
+  background-color: #fafafa;
+  cursor: pointer;
+}
+
+.articulo-item:hover {
+  background-color: #f1f1f1;
+}
+
+.articulo-abstract {
+  margin-top: 6px;
+  font-size: 0.9em;
+  color: #555;
+  display: none;
+}
+
+#seccion-descarga .mensaje {
+  background-color: #fff8e1;
+  border: 1px solid #ffeb3b;
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 0.95em;
+}
+
+#tabla-autores {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+#tabla-autores th, #tabla-autores td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#tabla-autores th {
+  background-color: #007BFF;
+  color: white;
+}
+#seccion-descarga .mensaje {
+  background-color: #fff8e1;
+  border: 1px solid #ffeb3b;
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 0.95em;
+}
+
+#tabla-autores {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+#tabla-autores th, #tabla-autores td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#tabla-autores th {
+  background-color: #007BFF;
+  color: white;
+}
+
+.grafico-autores {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+}
+.tabs {
+  display: flex;
+  gap: 5px;
+  margin-top: 10px;
+}
+.tab-btn {
+  padding: 6px 12px;
+  border: 1px solid #007bff;
+  background: #f0f8ff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.tab-btn:hover {
+  background: #007bff;
+  color: white;
+}
+
+.tab-content {
+  margin-top: 15px;
+  max-height: 400px;
+  overflow: auto;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.matriz {
+  border-collapse: collapse;
+  width: max-content;
+  min-width: 600px;
+}
+.matriz th, .matriz td {
+  border: 1px solid #ccc;
+  padding: 5px 8px;
+  text-align: center;
+}
+.matriz th {
+  background-color: #f2f2f2;
+}
+#contenido-keywords img {
+  width: 100%;
+  height: auto;
+  max-height: 80vh; /* evita que crezca más del viewport */
+  object-fit: contain;
+}
+.img-keywords {
+  display: block;
+  max-width: 90%;
+  margin: 0 auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+}

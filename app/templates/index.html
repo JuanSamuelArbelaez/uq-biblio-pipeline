@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Similitud de Artículos</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div id="contenedor-principal">
+
+    <!-- 🔹 SECCIÓN 0: DESCARGA BIBTEX -->
+    <section id="seccion-descarga">
+      <h2>Descargar BibTeX</h2>
+      <p class="mensaje">
+        ⚠️ Por rendimiento, la descarga está deshabilitada.<br>
+        Puedes consultar todos los archivos descargados en el directorio <code>src/datos/bib/</code>.
+      </p>
+    </section>
+
+    <section id="graficas">
+      <h2>📊 Gráficas </h2>
+      <div id="tabs-graficas" class="tabs">
+        <button class="tab-btn active" id="tab-autores">Autores</button>
+        <button class="tab-btn" id="tab-keywords">Keywords</button>
+        <button class="tab-btn" id="tab-location">Ubicación</button>
+        <button class="tab-btn" id="tab-timeline">Tendencias</button>
+        <button class="tab-btn" id="tab-wordcloud">Nube de palabras</button>
+        <button class="tab-btn" id="tab-followup">Redes de citas</button>
+      </div>
+
+      <div id="contenidos-graficas">
+        <div id="contenido-autores" class="contenido-tab">
+          <canvas id="graficoTopAutores"></canvas>
+        </div>
+
+        <div id="contenido-keywords" class="contenido-tab" style="display:none;"></div>
+        <div id="contenido-location" class="contenido-tab" style="display:none;"></div>
+        <div id="contenido-timeline" class="contenido-tab" style="display:none;"></div>
+        <div id="contenido-wordcloud" class="contenido-tab" style="display:none;"></div>
+        <div id="contenido-followup" class="contenido-tab" style="display:none;"></div>
+      </div>
+    </section>
+
+    <!-- 🔹 SECCIÓN 2: ARTÍCULOS DISPONIBLES -->
+    <section id="seccion-articulos">
+      <h2>Artículos disponibles</h2>
+      <div class="acciones">
+        <input type="text" id="buscar-articulos" placeholder="Buscar por título o autor..." />
+        <div class="botones">
+          <button id="btn-seleccionar-todos" class="btn">Seleccionar todos</button>
+          <button id="btn-deseleccionar-todos" class="btn">Deseleccionar todos</button>
+        </div>
+      </div>
+
+      <table id="tabla-articulos">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Título</th>
+            <th>Autores</th>
+            <th>Año</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+
+      <div class="paginacion">
+        <button id="first-page" class="btn">⏮ Primera</button>
+        <button id="prev-page" class="btn">◀ Anterior</button>
+        <span id="pagina-info">Página 1 de 1</span>
+        <button id="next-page" class="btn">Siguiente ▶</button>
+        <button id="last-page" class="btn">Última ⏭</button>
+      </div>
+    </section>
+
+    <!-- 🔹 SECCIÓN 3: ARTÍCULOS SELECCIONADOS -->
+    <section id="seccion-seleccionados">
+      <h2>Artículos seleccionados</h2>
+      <div id="lista-seleccionados"></div>
+
+      <div class="paginacion">
+        <button id="first-sel-page" class="btn">⏮ Primera</button>
+        <button id="prev-sel-page" class="btn">◀ Anterior</button>
+        <span id="pagina-sel-info">Página 1 de 1</span>
+        <button id="next-sel-page" class="btn">Siguiente ▶</button>
+        <button id="last-sel-page" class="btn">Última ⏭</button>
+      </div>
+    </section>
+
+    <!-- 🔹 SECCIÓN 4: RESULTADOS -->
+    <section id="seccion-resultados">
+      <h2>Resultados del análisis de similitud</h2>
+      <button id="btn-analizar" class="btn" disabled>Analizar similitud</button>
+
+       <!-- Tabs -->
+      <div id="tabs-container" class="tabs"></div>
+      <div id="tab-content" class="tab-content"></div>
+    </section>
+
+  </div>
+
+  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
