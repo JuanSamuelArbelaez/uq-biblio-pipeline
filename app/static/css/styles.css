@@ -200,7 +200,7 @@ tr.seleccionado {
   max-height: 80vh; /* evita que crezca más del viewport */
   object-fit: contain;
 }
-.img-keywords {
+.img-grafica {
   display: block;
   max-width: 90%;
   margin: 0 auto;

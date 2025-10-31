@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, render_template, request, send_from_directory
+from flask import Flask, jsonify, render_template, request, send_from_directory, abort
 import os
 from pathlib import Path
 import sys
@@ -97,7 +97,10 @@ def api_graficas():
     base_dir = Path(__file__).resolve().parent.parent
 
     rutas = {
-        "keywords": base_dir / "src" / "outputs" / "keywords_analizer" / "new_terms_tfidf_freq.png",
+        "keywords": [
+            base_dir / "src" / "outputs" / "keywords_analizer" / "new_terms_tfidf_freq.png",
+            base_dir / "src" / "outputs" / "keywords_analizer" / "precision_terms.png",
+        ],
         "location": base_dir / "src" / "datos" / "graphs" / "location" / "location_bibtex.png",
         "timeline": [
             base_dir / "src" / "datos" / "graphs" / "timeline" / "timeline_areas_bibtex.png",
