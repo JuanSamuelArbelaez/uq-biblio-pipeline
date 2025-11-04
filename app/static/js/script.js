@@ -18,6 +18,13 @@ const buscarInput = document.getElementById("buscar-articulos");
 // gráfico de autores
 let chartAutores = null;
 
+// botón de exportar PDF
+const btnExportarPDF = document.createElement("button");
+btnExportarPDF.textContent = "📄 Exportar PDF";
+btnExportarPDF.className = "btn";
+btnExportarPDF.disabled = true;
+document.querySelector("#graficas h2").appendChild(btnExportarPDF);
+
 /* ===============================
    🔹 Renderizado de artículos disponibles
    =============================== */
@@ -259,65 +266,113 @@ async function cargarTopAutores() {
         scales: { x: { beginAtZero: true } }
       }
     });
+
+    checkGraficasCompletas();
   } catch (e) {
     console.error("Error al cargar top autores:", e);
   }
 }
 
 /* ===============================
-   🔹 Mostrar imagen del análisis de keywords
+   🔹 Mostrar imágenes del análisis
    =============================== */
 async function cargarGraficas() {
   try {
     const resp = await fetch("/api/graficas");
     const data = await resp.json();
 
-    // Keywords (ya lo maneja mostrarImagenKeywords, pero aseguramos coherencia)
-    if (data.keywords?.length) {
-      const cont = document.getElementById("contenido-keywords");
-      cont.innerHTML = data.keywords.map(url => `<img src="${url}" class="img-grafica">`).join("");
-    }
+    const secciones = ["keywords", "location", "timeline", "wordcloud", "followup"];
+    secciones.forEach(sec => {
+      const cont = document.getElementById(`contenido-${sec}`);
+      cont.innerHTML = data[sec]?.map(url => `<img src="${url}" class="img-grafica">`).join("") || "";
+    });
 
-    // Ubicación
-    if (data.location?.length) {
-      const cont = document.getElementById("contenido-location");
-      cont.innerHTML = data.location.map(url => `<img src="${url}" class="img-grafica">`).join("");
-    }
-
-    // Timeline
-    if (data.timeline?.length) {
-      const cont = document.getElementById("contenido-timeline");
-      cont.innerHTML = data.timeline.map(url => `<img src="${url}" class="img-grafica">`).join("");
-    }
-
-    // Wordcloud
-    if (data.wordcloud?.length) {
-      const cont = document.getElementById("contenido-wordcloud");
-      cont.innerHTML = data.wordcloud.map(url => `<img src="${url}" class="img-grafica">`).join("");
-    }
-
-    // Follow-up
-    if (data.followup?.length) {
-      const cont = document.getElementById("contenido-followup");
-      cont.innerHTML = data.followup.map(url => `<img src="${url}" class="img-grafica">`).join("");
-    }
-
+    checkGraficasCompletas();
   } catch (e) {
     console.error("Error al cargar gráficas:", e);
   }
 }
 
 /* ===============================
+   🔹 Habilitar botón PDF cuando todas las gráficas estén listas
+   =============================== */
+function checkGraficasCompletas() {
+  const imgs = document.querySelectorAll("#contenidos-graficas img");
+  if (chartAutores && imgs.length >= 5) btnExportarPDF.disabled = false;
+}
+
+/* ===============================
+   🔹 Exportar todas las gráficas a PDF
+   =============================== */
+async function generarPDF() {
+  const { jsPDF } = window.jspdf;
+  const doc = new jsPDF({ orientation: "portrait", unit: "mm", format: "a4" });
+
+  let y = 20;
+  let graficosEnPagina = 0;
+
+  const addNewPage = () => {
+    doc.addPage();
+    y = 20;
+    graficosEnPagina = 0;
+  };
+
+  // Portada
+  doc.setFontSize(20);
+  doc.text("Informe de Análisis de Producción Científica", 105, y, { align: "center" });
+  y += 15;
+  doc.setFontSize(12);
+  doc.text("Este informe resume visualmente la producción científica a partir de las gráficas generadas en la app.", 15, y, { maxWidth: 180 });
+  y += 20;
+  doc.text(`Fecha de generación: ${new Date().toLocaleString("es-ES")}`, 15, y);
+  y += 20;
+
+  const agregarGrafica = (titulo, imgSrc) => {
+    if (graficosEnPagina >= 2) addNewPage();
+    doc.setFontSize(14);
+    doc.text(titulo, 15, y);
+    y += 5;
+    doc.addImage(imgSrc, "PNG", 15, y, 180, 80);
+    y += 90;
+    graficosEnPagina++;
+  };
+
+  // Top autores
+  const imgAutores = chartAutores.toBase64Image();
+  agregarGrafica("Top 15 Autores por Apariciones", imgAutores);
+
+  // Otras secciones
+  const secciones = [
+    { id: "contenido-location", titulo: "Mapa de calor: Distribución geográfica" },
+    { id: "contenido-wordcloud", titulo: "Nube de palabras (Abstracts y Keywords)" },
+    { id: "contenido-timeline", titulo: "Tendencias de publicaciones por año y revista" },
+    { id: "contenido-keywords", titulo: "Coocurrencia de Keywords" },
+    { id: "contenido-followup", titulo: "Red de citas / Coocurrencia" }
+  ];
+
+  for (const s of secciones) {
+    const cont = document.getElementById(s.id);
+    const imgs = cont.querySelectorAll("img");
+    if (imgs.length > 0) {
+      for (const img of imgs) {
+        agregarGrafica(s.titulo, img.src);
+      }
+    }
+  }
+
+  doc.save("informe_graficas.pdf");
+}
+
+btnExportarPDF.addEventListener("click", generarPDF);
+
+/* ===============================
    🔹 Cambiar entre tabs (Autores / Keywords / ETC)
    =============================== */
-// Manejo general de pestañas
 document.querySelectorAll("#tabs-graficas .tab-btn").forEach(btn => {
   btn.addEventListener("click", () => {
     document.querySelectorAll("#tabs-graficas .tab-btn").forEach(b => b.classList.remove("active"));
     btn.classList.add("active");
-
     document.querySelectorAll("#contenidos-graficas .contenido-tab").forEach(div => div.style.display = "none");
-
     const target = btn.id.replace("tab-", "contenido-");
     document.getElementById(target).style.display = "block";
   });
