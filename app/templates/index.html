@@ -22,7 +22,6 @@
     <section id="graficas">
       <div class="header-graficas">
         <h2>📊 Gráficas</h2>
-        <button id="btn-descargar-pdf" class="btn" disabled>📄 Descargar PDF</button>
       </div>
 
       <div id="tabs-graficas" class="tabs">
@@ -32,6 +31,7 @@
         <button class="tab-btn" id="tab-timeline">Tendencias</button>
         <button class="tab-btn" id="tab-wordcloud">Nube de palabras</button>
         <button class="tab-btn" id="tab-followup">Redes de citas</button>
+        <button class="tab-btn" id="tab-dendogramas">Dendogramas</button>
       </div>
 
       <div id="contenidos-graficas">
@@ -39,20 +39,12 @@
           <canvas id="graficoTopAutores"></canvas>
         </div>
 
-        <div id="contenido-keywords" class="contenido-tab" style="display:none;">
-          <img id="img-keywords" src="src/outputs/keywords_analizer/new_terms_tfidf_freq.png" style="max-width:100%; height:auto; object-fit:contain;">
-        </div>
-
-        <div id="contenido-location" class="contenido-tab" style="display:none;">
-          <img id="img-location" src="src/outputs/maps/location_map.png" style="max-width:100%; height:auto; object-fit:contain;">
-        </div>
-
-        <div id="contenido-timeline" class="contenido-tab" style="display:none;">
-          <img id="img-timeline" src="src/outputs/timeline/publications_timeline.png" style="max-width:100%; height:auto; object-fit:contain;">
-        </div>
-
+        <div id="contenido-keywords" class="contenido-tab" style="display:none;"></div>
+        <div id="contenido-location" class="contenido-tab" style="display:none;"></div>
+        <div id="contenido-timeline" class="contenido-tab" style="display:none;"></div>
         <div id="contenido-wordcloud" class="contenido-tab" style="display:none;"></div>
         <div id="contenido-followup" class="contenido-tab" style="display:none;"></div>
+        <div id="contenido-dendogramas" class="contenido-tab" style="display:none;"></div>
       </div>
     </section>
 

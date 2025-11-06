@@ -110,6 +110,11 @@ def api_graficas():
         "followup": [
             base_dir / "src" / "follow-ups" / "follow-up2" / "outputs" / "citation_graph_connected.png",
             base_dir / "src" / "follow-ups" / "follow-up2" / "outputs" / "cooccurrence_graph.png"
+        ],
+        "dendogramas":[
+            base_dir / "src" / "outputs" / "clustering_&_dendograms" / "dendrograma_average.png",
+            base_dir / "src" / "outputs" / "clustering_&_dendograms" / "dendrograma_complete.png",
+            base_dir / "src" / "outputs" / "clustering_&_dendograms" / "dendrograma_ward.png",
         ]
     }
 
@@ -126,7 +131,9 @@ def api_graficas():
             if path.exists():
                 data[key] = [f"/graficas/{key}/{path.name}"]
             else:
+                print(path)
                 data[key] = []
+    print(data)
 
     return jsonify(data)
 
@@ -142,7 +149,8 @@ def servir_grafica(categoria, filename):
         "location": base_dir / "datos" / "graphs" / "location",
         "timeline": base_dir / "datos" / "graphs" / "timeline",
         "wordcloud": base_dir / "datos" / "graphs" / "wordcloud",
-        "followup": base_dir / "follow-ups" / "follow-up2" / "outputs"
+        "followup": base_dir / "follow-ups" / "follow-up2" / "outputs",
+        "dendogramas" : base_dir / "outputs" / "clustering_&_dendograms"
     }
     if categoria not in subrutas:
         abort(404)

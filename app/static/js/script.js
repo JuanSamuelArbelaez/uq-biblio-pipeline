@@ -281,7 +281,7 @@ async function cargarGraficas() {
     const resp = await fetch("/api/graficas");
     const data = await resp.json();
 
-    const secciones = ["keywords", "location", "timeline", "wordcloud", "followup"];
+    const secciones = ["keywords", "location", "timeline", "wordcloud", "followup", "dendogramas"];
     secciones.forEach(sec => {
       const cont = document.getElementById(`contenido-${sec}`);
       cont.innerHTML = data[sec]?.map(url => `<img src="${url}" class="img-grafica">`).join("") || "";
@@ -321,25 +321,67 @@ async function generarPDF() {
   doc.setFontSize(20);
   doc.text("Informe de Análisis de Producción Científica", 105, y, { align: "center" });
   y += 15;
+
+  doc.setFontSize(14);
+  doc.text("Autores:", 105, y, { align: "center" });
+  y += 8;
   doc.setFontSize(12);
-  doc.text("Este informe resume visualmente la producción científica a partir de las gráficas generadas en la app.", 15, y, { maxWidth: 180 });
+  doc.text("Julian Andres Ladino", 105, y, { align: "center" });
+  y += 6;
+  doc.text("Juan Samuel Arbelaez", 105, y, { align: "center" });
+  y += 15;
+  
+  doc.setFontSize(12);
+  doc.text(
+    "Este informe resume visualmente la producción científica a partir de las gráficas generadas en la app.",
+    15, y, { maxWidth: 180 }
+  );
   y += 20;
   doc.text(`Fecha de generación: ${new Date().toLocaleString("es-ES")}`, 15, y);
   y += 20;
 
-  const agregarGrafica = (titulo, imgSrc) => {
+  // Función auxiliar que carga la imagen antes de agregarla
+  const agregarGrafica = async (titulo, imgSrc) => {
     if (graficosEnPagina >= 2) addNewPage();
+
+    const img = await cargarImagen(imgSrc);
+    const maxAncho = 180; // ancho máximo en mm
+    const proporcion = img.height / img.width;
+    const ancho = maxAncho;
+    const alto = maxAncho * proporcion;
+
+    const maxAlto = 100;
+    let finalAncho = ancho;
+    let finalAlto = alto;
+    if (alto > maxAlto) {
+      finalAlto = maxAlto;
+      finalAncho = maxAlto / proporcion;
+    }
+
+    if (y + finalAlto + 15 > 280) addNewPage();
+
     doc.setFontSize(14);
     doc.text(titulo, 15, y);
     y += 5;
-    doc.addImage(imgSrc, "PNG", 15, y, 180, 80);
-    y += 90;
+    doc.addImage(imgSrc, "PNG", 15, y, finalAncho, finalAlto);
+    y += finalAlto + 10;
     graficosEnPagina++;
+  };
+
+  // Carga real de imágenes como promesas
+  const cargarImagen = (src) => {
+    return new Promise((resolve, reject) => {
+      const img = new Image();
+      img.crossOrigin = "Anonymous";
+      img.onload = () => resolve(img);
+      img.onerror = reject;
+      img.src = src;
+    });
   };
 
   // Top autores
   const imgAutores = chartAutores.toBase64Image();
-  agregarGrafica("Top 15 Autores por Apariciones", imgAutores);
+  await agregarGrafica("Top 15 Autores por Apariciones", imgAutores);
 
   // Otras secciones
   const secciones = [
@@ -347,7 +389,8 @@ async function generarPDF() {
     { id: "contenido-wordcloud", titulo: "Nube de palabras (Abstracts y Keywords)" },
     { id: "contenido-timeline", titulo: "Tendencias de publicaciones por año y revista" },
     { id: "contenido-keywords", titulo: "Coocurrencia de Keywords" },
-    { id: "contenido-followup", titulo: "Red de citas / Coocurrencia" }
+    { id: "contenido-followup", titulo: "Red de citas / Coocurrencia" },
+    { id: "contenido-dendogramas", titulo: "Dendogramas" }
   ];
 
   for (const s of secciones) {
@@ -355,7 +398,7 @@ async function generarPDF() {
     const imgs = cont.querySelectorAll("img");
     if (imgs.length > 0) {
       for (const img of imgs) {
-        agregarGrafica(s.titulo, img.src);
+        await agregarGrafica(s.titulo, img.src);
       }
     }
   }
