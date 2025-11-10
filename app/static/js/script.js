@@ -70,13 +70,17 @@ function renderSeleccionados() {
     div.innerHTML = `<strong>${a.titulo}</strong> (${a.año})<br><em>${a.autores}</em>`;
     const abs = document.createElement("div");
     abs.className = "articulo-abstract";
-    abs.textContent = a.abstract || "Sin resumen disponible";
+    abs.textContent = ("Abstract: " + a.abstract) || "Sin resumen disponible";
+    const kw = document.createElement("div");
+    kw.className = "articulo-keywords";
+    kw.textContent = ("Keywords: " + a.keywords) || "Sin keywords disponible";
 
     div.addEventListener("click", () => {
       abs.style.display = abs.style.display === "block" ? "none" : "block";
     });
 
     div.appendChild(abs);
+    div.appendChild(kw);
     listaSeleccionados.appendChild(div);
   });
 

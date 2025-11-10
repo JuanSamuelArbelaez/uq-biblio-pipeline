@@ -14,7 +14,6 @@ os.makedirs(RUTA_BASE / "datos", exist_ok=True)  # Asegura que la carpeta exista
 
 # --- Configuración de descarga ---
 RUTA_PERFIL_CHROME = os.path.join(
-    os.environ["LOCALAPPDATA"],
     "Google",
     "Chrome",
     "User Data"
