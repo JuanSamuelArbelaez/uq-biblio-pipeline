@@ -1,3 +1,4 @@
+"""
 from pathlib import Path
 
 from src.sorters.analisis_sorters import analizar_algoritmos
@@ -50,3 +51,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+"""
